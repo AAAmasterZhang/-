@@ -1,2 +1,4 @@
 # -
 一个面向本地生活服务的团购平台项目
+java端是正常的点评项目包含登陆缓存秒杀以及redis数据结构的运用
+python服务是封装了rag服务，当java端全局搜索未命中，就会通过fastapi调用python的rag服务
